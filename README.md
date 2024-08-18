@@ -4,7 +4,6 @@
 ![Go-React-Todo](https://img.shields.io/badge/Go-1.16-blue.svg)
 ![React](https://img.shields.io/badge/React-17.0.2-blue.svg)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4.4-green.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 A simple and modern To-Do List application built using Go for the backend, React for the frontend, and MongoDB for the database.
 
@@ -16,7 +15,6 @@ A simple and modern To-Do List application built using Go for the backend, React
 - [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Add, update, and delete tasks
@@ -118,6 +116,3 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature-branch`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
