@@ -1,0 +1,81 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #f5f7fa;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  color: #ffa500;
+  font-size: 42px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+input[type="text"] {
+  background-color: white;
+  color: #333;
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 8px; 
+  width: calc(100% - 30px);
+  margin-bottom: 20px;
+  font-size: 18px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px; 
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); 
+}
+
+.rough {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffa500; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; 
+}
+
+.card-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
